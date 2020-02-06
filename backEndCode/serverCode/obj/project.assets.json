@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/serverCode/serverCode.csproj",
+      "projectUniqueName": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/serverCode.csproj",
       "projectName": "serverCode",
-      "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/serverCode/serverCode.csproj",
+      "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/serverCode.csproj",
       "packagesPath": "/Users/marthagonzalez/.nuget/packages/",
-      "outputPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/serverCode/obj/",
+      "outputPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

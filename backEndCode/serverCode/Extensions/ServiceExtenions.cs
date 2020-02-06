@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using LoggerService;
+// using Contracts;
 
 namespace serverCode.Extensions
 {
@@ -22,6 +26,12 @@ namespace serverCode.Extensions
             {
         
             });          
+        }
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            // services.AddSingleton<(ILoggerManager, LoggerManager)>();
+            services.AddSingleton<ILoggerManager, LoggerManager>();
+            // services.AddSingleton<LoggerManager, ILoggerManager>();
         }
     }
 }
