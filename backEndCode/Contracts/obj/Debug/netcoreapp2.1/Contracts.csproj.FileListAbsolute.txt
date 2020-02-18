@@ -1,0 +1,11 @@
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Contracts.deps.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Contracts.runtimeconfig.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Contracts.runtimeconfig.dev.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Contracts.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Contracts.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.csprojAssemblyReference.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.csproj.CoreCompileInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.AssemblyInfoInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.AssemblyInfo.cs
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.pdb

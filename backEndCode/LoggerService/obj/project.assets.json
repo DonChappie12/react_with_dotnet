@@ -343,17 +343,17 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "serverCode/1.0.0": {
+      "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.NETCore.App": "2.1.0"
         },
         "compile": {
-          "bin/placeholder/serverCode.dll": {}
+          "bin/placeholder/Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/serverCode.dll": {}
+          "bin/placeholder/Contracts.dll": {}
         }
       }
     }
@@ -1053,17 +1053,17 @@
         "version.txt"
       ]
     },
-    "serverCode/1.0.0": {
+    "Contracts/1.0.0": {
       "type": "project",
-      "path": "../serverCode/serverCode.csproj",
-      "msbuildProject": "../serverCode/serverCode.csproj"
+      "path": "../Contracts/Contracts.csproj",
+      "msbuildProject": "../Contracts/Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Contracts >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "NLog.Extensions.Logging >= 1.4.0",
-      "serverCode >= 1.0.0"
+      "NLog.Extensions.Logging >= 1.4.0"
     ]
   },
   "packageFolders": {
@@ -1094,8 +1094,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/serverCode.csproj": {
-              "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/serverCode.csproj"
+            "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/Contracts.csproj": {
+              "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/Contracts.csproj"
             }
           }
         }

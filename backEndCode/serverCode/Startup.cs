@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using serverCode.Extensions;
-// using NLog;
+using NLog;
 using System.IO;
+using System;
 
 namespace serverCode
 {
