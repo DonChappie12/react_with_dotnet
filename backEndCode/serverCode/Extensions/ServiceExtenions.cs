@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
 using LoggerService;
 using Contracts;
 using Entities;
+using Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace serverCode.Extensions
 {
@@ -35,8 +36,13 @@ namespace serverCode.Extensions
 
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
-            var connectionString = config["DBInfo:ConnectionString"];
-            services.AddDbContext<RepositoryContext>(o => o.UseMySql(connectionString));
+            var connectionString = config["mysqlconnection:connectionString"];
+            services.AddDbContextPool<RepositoryContext>(o => o.UseMySql(connectionString));
+            // services.AddDbContext<RepositoryContext>(o => o.UseMySql(config["mysqlconnection:connectionString"]));
         }
+        // public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        // {
+        //     services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        // }
     }
 }
