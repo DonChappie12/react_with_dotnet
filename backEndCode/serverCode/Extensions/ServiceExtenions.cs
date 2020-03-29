@@ -37,12 +37,11 @@ namespace serverCode.Extensions
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
-            services.AddDbContextPool<RepositoryContext>(o => o.UseMySql(connectionString));
-            // services.AddDbContext<RepositoryContext>(o => o.UseMySql(config["mysqlconnection:connectionString"]));
+            services.AddDbContext<RepositoryContext>(options => options.UseMySql(connectionString));
         }
-        // public static void ConfigureRepositoryWrapper(this IServiceCollection services)
-        // {
-        //     services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
-        // }
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
     }
 }

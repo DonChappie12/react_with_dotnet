@@ -1,0 +1,16 @@
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Repository.deps.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Repository.runtimeconfig.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Repository.runtimeconfig.dev.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Repository.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Repository.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Contracts.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Contracts.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.csprojAssemblyReference.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.csproj.CoreCompileInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.AssemblyInfoInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.AssemblyInfo.cs
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.csproj.CopyComplete
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/obj/Debug/netcoreapp2.1/Repository.pdb

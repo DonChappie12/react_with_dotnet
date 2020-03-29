@@ -9,3 +9,6 @@
 /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.AssemblyInfo.cs
 /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.dll
 /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Contracts/obj/Debug/netcoreapp2.1/Contracts.csproj.CopyComplete

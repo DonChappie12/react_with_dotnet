@@ -4396,6 +4396,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "compile": {
@@ -4403,6 +4404,20 @@
         },
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.2",
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       },
       "LoggerService/1.0.0": {
@@ -4418,6 +4433,22 @@
         },
         "runtime": {
           "bin/placeholder/LoggerService.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Contracts": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.2",
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       }
     }
@@ -11970,19 +12001,31 @@
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
     },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    },
     "LoggerService/1.0.0": {
       "type": "project",
       "path": "../LoggerService/LoggerService.csproj",
       "msbuildProject": "../LoggerService/LoggerService.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Entities >= 1.0.0",
       "LoggerService >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.1.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 2.1.2",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12013,8 +12056,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/Entities.csproj": {
+              "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/Entities.csproj"
+            },
             "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/LoggerService/LoggerService.csproj": {
               "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/LoggerService/LoggerService.csproj"
+            },
+            "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/Repository.csproj": {
+              "projectPath": "/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Repository/Repository.csproj"
             }
           }
         }

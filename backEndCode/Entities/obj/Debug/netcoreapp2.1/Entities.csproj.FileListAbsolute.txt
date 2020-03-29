@@ -1,0 +1,11 @@
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/bin/Debug/netcoreapp2.1/Entities.deps.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/bin/Debug/netcoreapp2.1/Entities.runtimeconfig.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/bin/Debug/netcoreapp2.1/Entities.runtimeconfig.dev.json
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/bin/Debug/netcoreapp2.1/Entities.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/bin/Debug/netcoreapp2.1/Entities.pdb
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.csprojAssemblyReference.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.csproj.CoreCompileInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.AssemblyInfoInputs.cache
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.AssemblyInfo.cs
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.dll
+/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/Entities/obj/Debug/netcoreapp2.1/Entities.pdb
