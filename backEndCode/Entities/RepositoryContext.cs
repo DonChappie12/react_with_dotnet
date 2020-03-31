@@ -11,6 +11,5 @@ namespace Entities
 
         public DbSet<Owner> Owner { get; set; }
         public DbSet<Account> Account { get; set; }
-        // public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options) { }
     }
 }
