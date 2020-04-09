@@ -1,0 +1,8 @@
+2020-04-08 18:50:01.2988 ERROR Something went wrong inside GetAllOwners action: The entity type 'Account' requires a primary key to be defined.
+2020-04-08 19:03:47.1769 ERROR Something went wrong inside GetAllOwners action: The entity type 'Account' requires a primary key to be defined.
+2020-04-08 19:03:56.2585 ERROR Something went wrong inside GetAllOwners action: The entity type 'Account' requires a primary key to be defined.
+2020-04-08 19:04:07.7354 ERROR Something went wrong inside GetAllOwners action: The entity type 'Account' requires a primary key to be defined.
+2020-04-08 19:13:57.2345 ERROR Something went wrong inside GetAllOwners action: Unknown column 'ow.DateOfBirth' in 'field list'
+2020-04-08 19:21:17.7279 INFO Returned all owners from database.
+2020-04-08 19:27:15.1335 INFO Returned all owners from database.
+2020-04-08 19:27:23.2730 INFO Returned all owners from database.

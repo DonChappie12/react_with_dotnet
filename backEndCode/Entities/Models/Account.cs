@@ -7,7 +7,8 @@ namespace Entities.Models
     [Table("account")]
     public class Account
     {
-        public Guid AccountId { get; set; }
+        [Column("idAccount")]
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Date created is required")]
         public DateTime DateCreated { get; set; }
@@ -16,7 +17,7 @@ namespace Entities.Models
         public string AccountType { get; set; }
 
         [ForeignKey(nameof(Owner))]
-        public Guid OwnerId { get; set; }
+        public Guid Owner_idOwner { get; set; }
         public Owner Owner { get; set; }
     }
 }

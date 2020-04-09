@@ -1,0 +1,2 @@
+2020-04-03 16:24:01.2785 ERROR Something went wrong inside GetAllOwners action: Unknown column 'ow.OwnerId' in 'field list'
+2020-04-03 16:32:45.3038 ERROR Something went wrong inside GetAllOwners action: The entity type 'Account' requires a primary key to be defined.

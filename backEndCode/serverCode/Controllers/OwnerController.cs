@@ -23,7 +23,6 @@ namespace serverCode.Controllers
             try
             {
                 var owners = _repository.Owner.GetAllOwners();
-                // var owners = _repository.Owner.FindAll();
                 _logger.LogInfo($"Returned all owners from database.");
 
                 return Ok(owners);
