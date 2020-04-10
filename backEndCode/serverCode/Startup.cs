@@ -8,6 +8,7 @@ using serverCode.Extensions;
 using NLog;
 using System.IO;
 using System;
+using AutoMapper;
 
 namespace serverCode
 {
@@ -29,6 +30,7 @@ namespace serverCode
             services.ConfigureLoggerService();
             services.ConfigureMySqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
