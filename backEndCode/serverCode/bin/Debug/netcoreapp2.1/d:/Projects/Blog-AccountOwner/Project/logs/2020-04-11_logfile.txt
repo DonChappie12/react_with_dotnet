@@ -1,0 +1,2 @@
+2020-04-11 14:07:33.4900 INFO Returned all owners from database.
+2020-04-11 14:08:33.2188 INFO Returned all owners from database.

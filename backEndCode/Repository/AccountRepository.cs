@@ -1,6 +1,9 @@
+using System;
+using System.Collections.Generic;
 using Contracts;
 using Entities;
 using Entities.Models;
+using System.Linq;
 
 namespace Repository
 {
@@ -9,6 +12,11 @@ namespace Repository
         public AccountRepository(RepositoryContext repositoryContext)
             :base(repositoryContext)
         {
+        }
+        public IEnumerable<Account> AccountsByOwner(Guid ownerId)
+        {
+            // return FindByCondition(a => a.OwnerId.Equals(ownerId)).ToList();
+            return FindByCondition(a => a.Owner_idOwner.Equals(ownerId)).ToList();
         }
     }
 }

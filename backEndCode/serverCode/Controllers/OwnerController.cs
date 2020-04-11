@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
 using Contracts;
 using Entities.DataTransferObjects;
@@ -167,10 +168,17 @@ namespace serverCode.Controllers
             try
             {
                 var owner = _repository.Owner.GetOwnerById(id);
-                if(owner.IsEmptyObject())
+                // if(owner.IsEmptyObject())
+                if(owner == null)
                 {
                     _logger.LogError($"Owner with id: {id}, hasn't been found in db.");
                     return NotFound();
+                }
+
+                if(_repository.Account.AccountsByOwner(id).Any())
+                {
+                    _logger.LogError($"Cannot delete owner with id: {id}. It has related accounts. Delete those accounts first");
+                    return BadRequest("Cannot delete owner. It has related accounts. Delete those accounts first");
                 }
         
                 _repository.Owner.DeleteOwner(owner);
