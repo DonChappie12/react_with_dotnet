@@ -9,3 +9,7 @@
 2020-04-10 12:21:18.9608 INFO Returned all owners from database.
 2020-04-10 12:21:38.6308 INFO Returned owner with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
 2020-04-10 12:21:49.5583 INFO Returned owner with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2020-04-10 18:48:15.9643 INFO Returned all owners from database.
+2020-04-10 19:59:07.1376 INFO Returned all owners from database.
+2020-04-10 20:00:53.8674 INFO Returned all owners from database.
+2020-04-10 20:01:15.6967 INFO Returned all owners from database.

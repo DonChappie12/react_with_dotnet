@@ -12,6 +12,8 @@ namespace serverCode
             CreateMap<Owner, OwnerDto>();
             CreateMap<Account, AccountDto>();
             CreateMap<Owner, OwnerDto>();
+            CreateMap<OwnerForCreationDto, Owner>();
+            CreateMap<OwnerForUpdateDto, Owner>();
         }
     }
 }
