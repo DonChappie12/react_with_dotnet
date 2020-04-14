@@ -47,7 +47,7 @@ namespace serverCode
                 app.UseHsts();
             }
             app.UseStaticFiles();
-            app.UseCors("My Policy");
+            app.UseCors("CorsPolicy");
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
                 ForwardedHeaders = ForwardedHeaders.All
