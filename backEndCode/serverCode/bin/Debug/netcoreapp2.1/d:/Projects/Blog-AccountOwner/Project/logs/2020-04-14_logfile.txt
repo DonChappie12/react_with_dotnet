@@ -1,0 +1,1 @@
+2020-04-14 10:49:53.9702 INFO Returned all owners from database.
