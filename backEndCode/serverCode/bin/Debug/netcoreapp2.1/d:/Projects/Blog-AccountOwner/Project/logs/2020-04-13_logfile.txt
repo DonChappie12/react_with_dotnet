@@ -2,3 +2,14 @@
 2020-04-13 22:11:26.4126 INFO Returned all owners from database.
 2020-04-13 22:11:30.2765 INFO Returned all owners from database.
 2020-04-13 22:11:38.8765 INFO Returned all owners from database.
+2020-04-13 23:06:09.5376 INFO Returned all owners from database.
+2020-04-13 23:08:19.7165 INFO Returned all owners from database.
+2020-04-13 23:08:22.4125 INFO Returned all owners from database.
+2020-04-13 23:08:23.7520 INFO Returned all owners from database.
+2020-04-13 23:19:57.8897 INFO Returned all owners from database.
+2020-04-13 23:20:16.3943 INFO Returned all owners from database.
+2020-04-13 23:20:19.2463 INFO Returned owner with details for id: 261e1685-cf26-494c-b17c-3546e65f5620
+2020-04-13 23:20:28.2084 INFO Returned all owners from database.
+2020-04-13 23:20:32.2013 INFO Returned owner with details for id: f98e4d74-0f68-4aac-89fd-047f1aaca6b6
+2020-04-13 23:20:34.1953 INFO Returned all owners from database.
+2020-04-13 23:20:35.0803 INFO Returned owner with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906

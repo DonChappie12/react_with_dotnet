@@ -55,8 +55,8 @@ class OwnerList extends Component {
 }
 
 const mapStateToProps = (state) => {     
-    return {  
-        data: state.data     
+    return {
+        data: state.repository.data     
     } 
 }
 const mapDispatchToProps = (dispatch) => {
