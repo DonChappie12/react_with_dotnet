@@ -5682,3 +5682,208 @@
 2020-04-14 11:14:45.9215 Trace Closing Layout Renderer: ${message}
 2020-04-14 11:14:45.9215 Debug Finished closing logging configuration.
 2020-04-14 11:14:45.9215 Info Logger has been shut down.
+2020-04-16 18:20:44.8250 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2020-04-16 18:20:44.9230 Debug Found assembly location directory: '/Users/marthagonzalez/.nuget/packages/nlog/4.5.11/lib/netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2020-04-16 18:20:44.9262 Debug Search for auto loading files in location: /Users/marthagonzalez/.nuget/packages/nlog/4.5.11/lib/netstandard2.0
+2020-04-16 18:20:44.9317 Debug Found assembly location directory: '/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1' (serverCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2020-04-16 18:20:44.9317 Debug Search for auto loading files in location: /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1
+2020-04-16 18:20:44.9327 Debug Auto loading based on AppDomain-BaseDirectory found location: /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1
+2020-04-16 18:20:44.9327 Debug Search for auto loading files in location: /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1
+2020-04-16 18:20:44.9333 Debug Start auto loading, location: /Users/marthagonzalez/.nuget/packages/nlog/4.5.11/lib/netstandard2.0
+2020-04-16 18:20:44.9366 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-04-16 18:20:44.9371 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2020-04-16 18:20:44.9371 Debug Auto loading done
+2020-04-16 18:20:44.9387 Info Message Template Auto Format enabled
+2020-04-16 18:20:44.9671 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:44.9731 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-04-16 18:20:44.9838 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-04-16 18:20:45.0057 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-04-16 18:20:45.0061 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0061 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.0097 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0101 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-04-16 18:20:45.0114 Trace  Scanning Property Culture '' System.Globalization
+2020-04-16 18:20:45.0167 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-04-16 18:20:45.0172 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-04-16 18:20:45.0181 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.0192 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.0204 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0211 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2020-04-16 18:20:45.0211 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0211 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-04-16 18:20:45.0350 Debug Setting 'FileTarget.name' to 'logfile'
+2020-04-16 18:20:45.0360 Debug Setting 'FileTarget.fileName' to 'd:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt'
+2020-04-16 18:20:45.0375 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0375 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-04-16 18:20:45.0491 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2020-04-16 18:20:45.0501 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0501 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-04-16 18:20:45.0501 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2020-04-16 18:20:45.0511 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2020-04-16 18:20:45.0511 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0511 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.0511 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0511 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-04-16 18:20:45.0522 Trace  Scanning Property Culture '' System.Globalization
+2020-04-16 18:20:45.0522 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-04-16 18:20:45.0522 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-04-16 18:20:45.0522 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.0522 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.0532 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2020-04-16 18:20:45.0532 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-04-16 18:20:45.0543 Info Adding target File Target[logfile]
+2020-04-16 18:20:45.0558 Debug Registered target logfile: NLog.Targets.FileTarget
+2020-04-16 18:20:45.0567 Trace ParseRulesElement
+2020-04-16 18:20:45.0695 Info Configured from an XML element in /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/nlog.config...
+2020-04-16 18:20:45.0771 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2020-04-16 18:20:45.0854 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2020-04-16 18:20:45.0887 Debug --- NLog configuration dump ---
+2020-04-16 18:20:45.0887 Debug Targets:
+2020-04-16 18:20:45.0893 Debug File Target[logfile]
+2020-04-16 18:20:45.0893 Debug Rules:
+2020-04-16 18:20:45.0914 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2020-04-16 18:20:45.0914 Debug --- End of NLog configuration dump ---
+2020-04-16 18:20:45.0945 Trace FindReachableObject<System.Object>:
+2020-04-16 18:20:45.0951 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2020-04-16 18:20:45.0951 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2020-04-16 18:20:45.0971 Trace  Scanning FileTarget 'File Target[logfile]'
+2020-04-16 18:20:45.0971 Trace   Scanning Property FileName ''d:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2020-04-16 18:20:45.0982 Trace   Scanning SimpleLayout ''d:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt''
+2020-04-16 18:20:45.0982 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.0982 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.0982 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-04-16 18:20:45.0991 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.0991 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-04-16 18:20:45.1001 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-04-16 18:20:45.1001 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1001 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-04-16 18:20:45.1013 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1013 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-04-16 18:20:45.1033 Trace     Scanning Property Culture '' System.Globalization
+2020-04-16 18:20:45.1033 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-04-16 18:20:45.1043 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-04-16 18:20:45.1043 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1043 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.1043 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1052 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-04-16 18:20:45.1052 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2020-04-16 18:20:45.1052 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-04-16 18:20:45.1075 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2020-04-16 18:20:45.1086 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2020-04-16 18:20:45.1096 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1105 Info Found 14 configuration items
+2020-04-16 18:20:45.1128 Trace Initializing Layout Renderer: ${message}
+2020-04-16 18:20:45.1136 Trace Initializing Layout Renderer: ${literal}
+2020-04-16 18:20:45.1136 Trace Initializing Layout Renderer: ${level}
+2020-04-16 18:20:45.1141 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2020-04-16 18:20:45.1181 Trace FindReachableObject<System.Object>:
+2020-04-16 18:20:45.1194 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-04-16 18:20:45.1194 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1194 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.1232 Trace Initializing Layout Renderer: ${uppercase}
+2020-04-16 18:20:45.1232 Trace Initializing Layout Renderer: ${literal}
+2020-04-16 18:20:45.1232 Trace Initializing Layout Renderer: ${longdate}
+2020-04-16 18:20:45.1232 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2020-04-16 18:20:45.1232 Trace FindReachableObject<System.Object>:
+2020-04-16 18:20:45.1242 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-04-16 18:20:45.1242 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1242 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2020-04-16 18:20:45.1251 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1251 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2020-04-16 18:20:45.1251 Trace   Scanning Property Culture '' System.Globalization
+2020-04-16 18:20:45.1251 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2020-04-16 18:20:45.1262 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2020-04-16 18:20:45.1262 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1262 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2020-04-16 18:20:45.1262 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1262 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2020-04-16 18:20:45.1276 Trace Initializing Layout Renderer: ${literal}
+2020-04-16 18:20:45.1276 Trace Initializing Layout Renderer: ${shortdate}
+2020-04-16 18:20:45.1276 Trace Initializing Layout Renderer: ${literal}
+2020-04-16 18:20:45.1281 Trace Initializing 'd:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt'
+2020-04-16 18:20:45.1281 Trace FindReachableObject<System.Object>:
+2020-04-16 18:20:45.1281 Trace Scanning SimpleLayout ''d:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt''
+2020-04-16 18:20:45.1281 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2020-04-16 18:20:45.1281 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1291 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2020-04-16 18:20:45.1291 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2020-04-16 18:20:45.1291 Trace Initializing File Target[logfile]
+2020-04-16 18:20:45.1356 Trace FindReachableObject<NLog.Layouts.Layout>:
+2020-04-16 18:20:45.1361 Trace Scanning FileTarget 'File Target[logfile]'
+2020-04-16 18:20:45.1361 Trace  Scanning Property FileName ''d:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2020-04-16 18:20:45.1361 Trace  Scanning SimpleLayout ''d:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt''
+2020-04-16 18:20:45.1361 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2020-04-16 18:20:45.1361 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2020-04-16 18:20:45.1372 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2020-04-16 18:20:45.1372 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2020-04-16 18:20:45.1381 Trace File Target[logfile] has 2 layouts
+2020-04-16 18:20:45.1395 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2020-04-16 18:20:45.1859 Debug Watching path '/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode' filter 'nlog.config' for changes.
+2020-04-16 18:22:17.1536 Debug Targets for LoggerService.LoggerManager by level:
+2020-04-16 18:22:17.1545 Debug Trace =>
+2020-04-16 18:22:17.1545 Debug Debug => logfile
+2020-04-16 18:22:17.1549 Debug Info => logfile
+2020-04-16 18:22:17.1549 Debug Warn => logfile
+2020-04-16 18:22:17.1549 Debug Error => logfile
+2020-04-16 18:22:17.1549 Debug Fatal => logfile
+2020-04-16 18:22:17.1987 Debug FileTarget(Name=logfile): Process file '/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt' on startup
+2020-04-16 18:22:17.2191 Debug Creating file appender: /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt
+2020-04-16 18:22:17.2246 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:25:04.9373 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:25:06.3319 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:25:10.5192 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:27:32.9714 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:28:25.4200 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:30:30.5069 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:30:43.8770 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:30:58.0410 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:31:30.6257 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:32:25.7104 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:32:27.5040 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:35.6034 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:38.0003 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:44.4500 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:47.6497 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:50.6962 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:33:51.5775 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:01.0632 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:14.7022 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:16.1708 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:17.5994 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:30.9741 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:42.5254 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:34:46.4278 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:35:13.3601 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:35:27.0397 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:35:29.5077 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:35:31.5432 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:35:51.7890 Trace Opening /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt with allowFileSharedWriting=False
+2020-04-16 18:36:16.4432 Info Shutting down logging...
+2020-04-16 18:36:16.4512 Debug Stopping file watching for path '/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode' filter 'nlog.config'
+2020-04-16 18:36:16.4564 Debug Targets for LoggerService.LoggerManager by level:
+2020-04-16 18:36:16.4564 Debug Trace =>
+2020-04-16 18:36:16.4569 Debug Debug =>
+2020-04-16 18:36:16.4569 Debug Info =>
+2020-04-16 18:36:16.4569 Debug Warn =>
+2020-04-16 18:36:16.4569 Debug Error =>
+2020-04-16 18:36:16.4569 Debug Fatal =>
+2020-04-16 18:36:16.4591 Debug Closing logging configuration...
+2020-04-16 18:36:16.4591 Trace Closing File Target[logfile]
+2020-04-16 18:36:16.4607 Debug Closing target 'File Target[logfile]'.
+2020-04-16 18:36:16.4663 Trace FileTarget(Name=logfile): FinalizeFile '/Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt, isArchiving: False'
+2020-04-16 18:36:16.4723 Debug FileAppender Closing Invalidate - /Users/marthagonzalez/Documents/my_projects/react_dotnet/backEndCode/serverCode/bin/Debug/netcoreapp2.1/d:/Projects/Blog-AccountOwner/Project/logs/2020-04-16_logfile.txt
+2020-04-16 18:36:16.4764 Debug Closed target 'File Target[logfile]'.
+2020-04-16 18:36:16.4764 Trace Closing 'd:/Projects/Blog-AccountOwner/Project/logs/${shortdate}_logfile.txt'
+2020-04-16 18:36:16.4777 Trace Closing Layout Renderer: ${literal}
+2020-04-16 18:36:16.4785 Trace Closing Layout Renderer: ${shortdate}
+2020-04-16 18:36:16.4790 Trace Closing Layout Renderer: ${literal}
+2020-04-16 18:36:16.4790 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2020-04-16 18:36:16.4790 Trace Closing Layout Renderer: ${longdate}
+2020-04-16 18:36:16.4801 Trace Closing Layout Renderer: ${literal}
+2020-04-16 18:36:16.4801 Trace Closing Layout Renderer: ${uppercase}
+2020-04-16 18:36:16.4801 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2020-04-16 18:36:16.4811 Trace Closing Layout Renderer: ${level}
+2020-04-16 18:36:16.4811 Trace Closing Layout Renderer: ${literal}
+2020-04-16 18:36:16.4811 Trace Closing Layout Renderer: ${message}
+2020-04-16 18:36:16.4811 Debug Finished closing logging configuration.
+2020-04-16 18:36:16.4821 Info Logger has been shut down.
