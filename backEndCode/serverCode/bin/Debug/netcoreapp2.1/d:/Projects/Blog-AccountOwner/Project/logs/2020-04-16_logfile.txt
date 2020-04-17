@@ -28,3 +28,9 @@
 2020-04-16 18:35:29.5077 INFO Returned all owners from database.
 2020-04-16 18:35:31.5432 INFO Returned owner with id: 08d7e09f-a9dc-d188-89f1-b86bb73dc911
 2020-04-16 18:35:51.7890 INFO Returned all owners from database.
+2020-04-16 18:47:18.8991 INFO Returned all owners from database.
+2020-04-16 18:47:22.6373 INFO Returned owner with details for id: 08d7e09f-a9dc-d188-89f1-b86bb73dc911
+2020-04-16 18:47:25.9664 INFO Returned all owners from database.
+2020-04-16 18:47:28.2904 INFO Returned owner with id: 08d7e09f-a9dc-d188-89f1-b86bb73dc911
+2020-04-16 18:48:14.8253 INFO Returned owner with id: 08d7e09f-a9dc-d188-89f1-b86bb73dc911
+2020-04-16 18:48:34.6580 INFO Returned all owners from database.
